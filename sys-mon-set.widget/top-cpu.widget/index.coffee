@@ -15,7 +15,7 @@ style: """
   &:after
     content: 'cpu'
     position: absolute
-    left: 0
+    right: 0
     top: -14px
     font-size: 10px
 
