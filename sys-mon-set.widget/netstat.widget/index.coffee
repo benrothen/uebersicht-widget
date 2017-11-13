@@ -23,8 +23,8 @@ style: """
     border: 1px solid #fff
     font-size: 24px
     font-weight: 100
-    width: 100px
-    max-width: 100px
+    width: 110px
+    max-width: 110px
     overflow: hidden
     text-shadow: 0 0 1px rgba(#000, 0.5)
 
