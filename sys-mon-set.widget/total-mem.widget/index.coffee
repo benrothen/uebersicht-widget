@@ -3,7 +3,7 @@
 
 command: "vm_stat | awk 'NR==2 {print \"Free,\"($3 / 256) / 1024} NR==3 {print \"Active,\"($3 / 256) / 1024} NR==4 {print \"Inactive,\"($3 / 256) / 1024} NR==7 {print \"Wired,\"($4 / 256) / 1024}'"
 
-refreshFrequency: 1000
+refreshFrequency: 2000
 
 style: """
   bottom: 2px

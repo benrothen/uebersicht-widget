@@ -1,6 +1,6 @@
 command: "ps axro \"pid, %cpu, ucomm\" | awk 'FNR>1' 2>/dev/null | head -n 3 | awk '{ printf \"%5.1f%%,%s,%s\\n\", $2, $3, $1}' 2>/dev/null"
 
-refreshFrequency: 3000
+refreshFrequency: 2000
 
 style: """
   bottom: 2px
